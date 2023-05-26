@@ -3,19 +3,36 @@ body {
 }
 
 header {
-  background-color: #20b2aa;
+  background-color: transparent;
   margin: 0;
   padding: 1px 10px;
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  width: 100%;
+  width: 100%; */
+}
+
+.displayNone {
+  display: none;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.displayGrid {
+  display: grid;
+}
+
+.displayBlock {
+  display: block;
 }
 
 #headerUl {
   list-style-type: none;
-  display: flex;
-  justify-content: space-around;
+  /* display: flex; */
+  /* justify-content: space-around; */
   padding: 0;
+  margin: 5%;
 }
 
 #headerUl li {
@@ -24,4 +41,8 @@ header {
 
 #website_logo {
   width: 10%;
+}
+
+#img_ham {
+  width: 1.8em;
 }
