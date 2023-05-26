@@ -2,6 +2,26 @@ body {
   margin: 0 auto;
 }
 
+header {
+  background-color: #20b2aa;
+  margin: 0;
+  padding: 1px 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 #headerUl {
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+#headerUl li {
+  cursor: pointer;
+}
+
+#website_logo {
+  width: 10%;
 }
