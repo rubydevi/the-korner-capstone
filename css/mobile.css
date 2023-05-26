@@ -46,3 +46,7 @@ header {
 #img_ham {
   width: 1.8em;
 }
+
+.container {
+  padding: 5%;
+}
