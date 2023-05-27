@@ -60,6 +60,13 @@ speakers.forEach((speaker) => {
 
 // Create button for 'See More'
 const seeMoreButton = document.createElement('button');
+
 seeMoreButton.classList.add('btn', 'text-white', 'displayBlock');
 seeMoreButton.innerText = 'More';
+
+const dropdownIcon = document.createElement('span');
+dropdownIcon.className = 'fas fa-chevron-down';
+
+seeMoreButton.appendChild(dropdownIcon);
+
 featSpeakers.appendChild(seeMoreButton);
