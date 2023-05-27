@@ -189,3 +189,9 @@ hr {
   background-color: rgb(255, 192, 181);
   color: #ec5242;
 }
+
+/* FEATURES */
+#features {
+  justify-items: center;
+  /* color: change according to template */
+}
