@@ -87,8 +87,14 @@ ul {
   row-gap: 20px;
 }
 
+#greeting {
+    font-weight: 400;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
 .text-title {
-  background-image: url('../images/title-bg.jpg');
+  background-image: url('../images/welcome-bg.avif');
   background-size: cover;
   background-position: center center;
   -webkit-background-clip: text;
@@ -96,6 +102,7 @@ ul {
   font-size: 9vw;
   font-family: 'cocogoose', sans-serif;
   font-weight: 700;
+  text-shadow: 2px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .text-description {
