@@ -88,9 +88,9 @@ ul {
 }
 
 #greeting {
-    font-weight: 400;
-    font-size: 1.2em;
-    text-shadow: 2px 2px 1px rgb(0 0 0 / 20%);
+  font-weight: 400;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .text-title {
@@ -120,8 +120,8 @@ ul {
 
 #services {
   justify-items: center;
-  background-color: black;
   color: #fff;
+  background-image: url(../images/grids/grid-body1.jpg);
 }
 
 hr {
@@ -129,15 +129,63 @@ hr {
   width: 10%;
 }
 
-#ul_services {
+.programs {
+  display: flex;
   flex-direction: column;
+  padding: 14px;
+  justify-content: space-between;
+  gap: 1em;
+  height: auto;
+  width: auto;
 }
 
-#ul_services img {
+.program {
+  display: flex;
+  align-items: center;
+  padding: 1% 5%;
+  justify-content: space-between;
+  background-color: rgb(100 100 100 / 25%);
+  gap: 5%;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  transition: transform 0.2s;
+}
+
+.program:hover {
+  transform: scale(1.05);
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  text-shadow: 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.program img {
   width: 10%;
 }
 
-#ul_services div {
+.program-name {
+  color: #ec5242;
+}
+
+.btn {
   display: flex;
-  background-color: rgba(128, 128, 128, 0.534);
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 4% 12%;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  background-color: #ec5242;
+  margin-top: 6%;
+}
+
+.btn:active {
+  background-color: rgb(255, 78, 47);
+}
+
+.btn:hover {
+  border: 1px solid #ec5242;
+  background-color: rgb(255, 192, 181);
+  color: #ec5242;
 }
