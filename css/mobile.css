@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
 
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
 
+.main-section {
+  background-image: url('../images/welcome-bg.avif');
+  background-size: cover;
+  background-position: center center;
+}
+
+#div_blur {
+  background-color: #ffffff6b;
+  backdrop-filter: blur(3px);
+}
+
 header {
-  background-color: transparent;
   padding: 1px 10px;
 }
 
@@ -51,15 +62,19 @@ ul {
 }
 
 .text-primary {
-  color: coral;
+  color: #ec5242;
 }
 
 .text-dark {
-  color: rgb(26, 23, 23);
+  color: #272a31;
 }
 
 .text-white {
   color: #fff;
+}
+
+.text-grey {
+  color: #d3d3d3;
 }
 
 #home p,
@@ -69,13 +84,29 @@ ul {
 }
 
 #home {
-  row-gap: 5%;
+  row-gap: 20px;
+}
+
+.text-title {
+  background-image: url('../images/title-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 9vw;
+  font-family: 'cocogoose', sans-serif;
+  font-weight: 700;
 }
 
 .text-description {
   padding: 5%;
-  border: 1px solid #000;
-  background-color: #e9e9e9;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+#p_date {
+  font-weight: 700;
+  font-size: x-large;
 }
 
 /* SERVICES SECTION */
@@ -84,6 +115,11 @@ ul {
   justify-items: center;
   background-color: black;
   color: #fff;
+}
+
+hr {
+  border: 1px solid #ec5242;
+  width: 10%;
 }
 
 #ul_services {
@@ -97,12 +133,4 @@ ul {
 #ul_services div {
   display: flex;
   background-color: rgba(128, 128, 128, 0.534);
-}
-
-.text-title {
-  background-image: url('../images/title-bg.jpg');
-  background-size: cover;
-  background-position: center center;
-  -webkit-background-clip: text;
-  color: transparent;
 }
