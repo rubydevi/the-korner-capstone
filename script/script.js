@@ -40,9 +40,13 @@ const speakers = [
 
 // Dynamically create cards for each speaker
 const featSpeakers = document.getElementById('feat_speakers'); // Parent div where dynamic element appends
-speakers.forEach((speaker) => {
+speakers.forEach((speaker, index) => {
   const featuredElement = document.createElement('div'); // div for each speaker = featuredElement
   featuredElement.classList.add('program');
+
+  if (index >= 2) {
+    featuredElement.classList.add('speaker-hidden', 'hide');
+  }
 
   // Create HTML structure for each speaker
   featuredElement.innerHTML = `
@@ -71,12 +75,16 @@ seeMoreButton.appendChild(dropdownIcon);
 
 featSpeakers.appendChild(seeMoreButton);
 
-// const moreContent = document.getElementById('moreContent');
+seeMoreButton.addEventListener('click', () => {
+  const hiddenSpeakers = featSpeakers.querySelectorAll('.hide');
 
-// seeMoreButton.addEventListener('click', () => {
-//   additionalContent.style.display = 'flex';
-//   seeMoreButton.style.display = 'none';
-// });
+  hiddenSpeakers.forEach((speaker) => {
+    speaker.classList.toggle('speaker-hidden');
+  });
+
+  // seeMoreButton.classList.toggle('displayBlock');
+seeMoreButton.innerText = seeMoreButton.innerText === 'more'.toLocaleUpperCase() ? 'hide'.toLocaleUpperCase(); : 'more'.toLocaleUpperCase();
+});
 
 // Navlinks Popup
 const openNav = document.getElementById('openNav');
