@@ -347,9 +347,14 @@ hr {
   text-align: center;
 }
 
-/* #img_logo {
-  width: 100%;
-} */
+.logo-img {
+  align-items: center;
+  justify-content: center;
+}
+
+#img_logo {
+  width: 50%;
+}
 
 #hr1 {
   border: 1px solid #e0e0e0;
