@@ -5,6 +5,85 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/* MOBILE NAVIGATION POP UP */
+
+/* Modal Pop Up */
+.modalContainer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 9999;
+  padding: 5%;
+  padding-top: 15%;
+}
+
+#modalSetting {
+  /* display: none; */
+  background-color: rgb(236 82 66 / 50%);
+  width: 100%;
+  font-size: 2em;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0;
+  backdrop-filter: blur(3px);
+}
+
+.modalContent {
+  padding: 5%;
+  margin: 0 auto;
+  height: 80%;
+
+  /* overflow: auto; */
+}
+
+#modalContentSetting {
+  width: 100%;
+  padding: 0;
+  height: inherit;
+}
+
+#div_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.modalNav {
+  padding: 0 5%;
+  height: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* row-gap: 2px; */
+  align-items: center;
+}
+
+.modalNav li {
+  padding: 2%;
+}
+
+.modalNav li a {
+  text-decoration: none;
+}
+
+.modalNav li a:active {
+  color: #bbb;
+}
+
+#btnCloseNav {
+  margin: 5%;
+
+  /* float: right; */
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
 .main-section {
   /* background-image: url('../images/welcome-bg.avif'); */
 
@@ -265,85 +344,6 @@ hr {
   background-color: #d3d3d3;
   color: #fff;
   border: 1px solid #fff;
-}
-
-/* MOBILE NAVIGATION POP UP */
-
-/* Modal Pop Up */
-.modalContainer {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  z-index: 9999;
-  padding: 5%;
-  padding-top: 15%;
-}
-
-#modalSetting {
-  /* display: none; */
-  background-color: rgb(236 82 66 / 50%);
-  width: 100%;
-  font-size: 2em;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  padding: 0;
-  backdrop-filter: blur(3px);
-}
-
-.modalContent {
-  padding: 5%;
-  margin: 0 auto;
-  height: 80%;
-
-  /* overflow: auto; */
-}
-
-#modalContentSetting {
-  width: 100%;
-  padding: 0;
-  height: inherit;
-}
-
-#div_menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.modalNav {
-  padding: 0 5%;
-  height: 37%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  /* row-gap: 2px; */
-  align-items: center;
-}
-
-.modalNav li {
-  padding: 2%;
-}
-
-.modalNav li a {
-  text-decoration: none;
-}
-
-.modalNav li a:active {
-  color: #bbb;
-}
-
-#btnCloseNav {
-  margin: 5%;
-
-  /* float: right; */
-  background-color: transparent;
-  outline: none;
-  border: none;
 }
 
 /* ABOUT */
