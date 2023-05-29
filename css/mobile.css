@@ -350,3 +350,7 @@ hr {
 .align-center {
   text-align: center;
 }
+
+#img_logo {
+  width: 100%;
+}
