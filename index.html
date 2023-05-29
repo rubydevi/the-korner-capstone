@@ -18,14 +18,14 @@
               <li class="logo displayNone">
                 <img src="images/logo.png" alt="Logo">
               </li>
-              <li>
+              <li id="openNav">
                 <img src="images/menuHamburgerDark.svg" alt="Menu Hamburger Icon">
               </li>
             </ul>
           </nav>
         </div>
       </header>
-    
+
       <main>
         <article id="home" class="container">
           <div id="welcome_text">
@@ -42,11 +42,10 @@
         </article>
       </main>
     </div>    
-  </div>
-  
+  </div>  
 
   <section id="services" class="displayGrid">
-    <h1>Our Services</h1>
+    <h1 class="headline">Our Services</h1>
     <hr>
     <div class="programs">
       <div class="program">
@@ -79,13 +78,42 @@
   </section>
 
   <section id="features" class="displayGrid">
-    <h1>Featured Speakers</h1>
+    <h1 class="headline">Featured Speakers</h1>
     <hr>
     
     <div id="feat_speakers" class="programs">
       
     </div>
   </section>
+
+  <!-- Modal Settings Starts -->
+  <section id="modalSetting" class="modalContainer">
+    <div id="modalContentSetting" class="modalContent">
+      <button id="btnCloseNav">
+        <img src="images/cross2.png" alt="">
+      </button>
+      <div id="div_menu">
+        <ul id="menuList" class="modalNav">
+          <li>
+            <a class="text-white" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="text-white" href="#services">Services</a>
+          </li>
+          <li>
+            <a class="text-white" href="#features">Features</a>
+          </li>
+          <li>
+            <a class="text-white" href="#">Blogs</a>
+          </li>
+          <li>
+            <a class="text-white" href="#">Careers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Modal Settings Starts -->
 
   <script src="script/script.js"></script>
 </body>

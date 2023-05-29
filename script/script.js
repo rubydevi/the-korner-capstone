@@ -61,8 +61,8 @@ speakers.forEach((speaker) => {
 // Create button for 'See More'
 const seeMoreButton = document.createElement('button');
 
-seeMoreButton.classList.add('btn', 'text-white', 'displayBlock');
-seeMoreButton.innerText = 'More';
+seeMoreButton.classList.add('btn', 'btn-seemore', 'displayBlock');
+seeMoreButton.innerText = 'More'.toLocaleUpperCase();
 
 const dropdownIcon = document.createElement('span');
 dropdownIcon.className = 'fas fa-chevron-down';
@@ -70,3 +70,39 @@ dropdownIcon.className = 'fas fa-chevron-down';
 seeMoreButton.appendChild(dropdownIcon);
 
 featSpeakers.appendChild(seeMoreButton);
+
+// const moreContent = document.getElementById('moreContent');
+
+// seeMoreButton.addEventListener('click', () => {
+//   additionalContent.style.display = 'flex';
+//   seeMoreButton.style.display = 'none';
+// });
+
+// Navlinks Popup
+const openNav = document.getElementById('openNav');
+const modalNav = document.getElementById('modalSetting');
+const closeNav = document.getElementById('btnCloseNav');
+
+openNav.addEventListener('click', () => {
+  modalNav.style.display = 'flex';
+});
+
+closeNav.addEventListener('click', () => {
+  modalNav.style.display = 'none';
+});
+
+const menuList = document.querySelectorAll('#menuList li');
+
+menuList.forEach((list) => {
+  list.addEventListener('click', (event) => {
+    const url = list.querySelector('a');
+    const sectionId = url.getAttribute('href');
+
+    document.querySelector(sectionId).scrollIntoView();
+
+    const modalSection = document.getElementById('modalSetting');
+
+    modalSection.style.display = 'none';
+    event.preventDefault();
+  });
+});
