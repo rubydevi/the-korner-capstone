@@ -46,12 +46,12 @@ speakers.forEach((speaker) => {
 
   // Create HTML structure for each speaker
   featuredElement.innerHTML = `
-    <img width="20%" src="${speaker.image}" alt="speaker image">
-    <div>
-      <h1>${speaker.name}</h1>
-      <p style="color:tomato">${speaker.title}</p>
-      <hr>
-      <p>${speaker.description}</p>
+    <img src="${speaker.image}" alt="speaker image">
+    <div class="speaker-details">
+      <h1 class="headline speaker-head">${speaker.name}</h1>
+      <p class="text-primary speaker-title">${speaker.title}</p>
+      <hr class="feature-hr">
+      <p class="speaker-description">${speaker.description}</p>
     </div>
   `;
 
