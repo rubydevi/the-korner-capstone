@@ -5,9 +5,13 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* MOBILE NAVIGATION POP UP */
+.bg-full {  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
-/* Modal Pop Up */
+/* MOBILE NAVIGATION POP UP */
 .modalContainer {
   display: none;
   position: fixed;
@@ -20,7 +24,6 @@ body {
 }
 
 #modalSetting {
-  /* display: none; */
   background-color: rgb(236 82 66 / 50%);
   width: 100%;
   font-size: 2em;
@@ -35,8 +38,6 @@ body {
   padding: 5%;
   margin: 0 auto;
   height: 80%;
-
-  /* overflow: auto; */
 }
 
 #modalContentSetting {
@@ -58,8 +59,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  /* row-gap: 2px; */
   align-items: center;
 }
 
@@ -77,17 +76,12 @@ body {
 
 #btnCloseNav {
   margin: 5%;
-
-  /* float: right; */
   background-color: transparent;
   outline: none;
   border: none;
 }
 
 .main-section {
-  /* background-image: url('../images/welcome-bg.avif'); */
-
-  /* background-image: url('../images/welcome-bg.jpg'); */
   background-image: url('../images/welcome-bg1.jpg');
   background-size: cover;
   background-position: center center;
@@ -259,7 +253,7 @@ hr {
   cursor: pointer;
   box-sizing: border-box;
   border: 1px solid transparent;
-  font-size: 2.5vw; /* new change */
+  font-size: 2.5vw;
 }
 
 .btn-primary {
@@ -280,8 +274,6 @@ hr {
 /* FEATURES */
 #features {
   justify-items: center;
-
-  /* color: change according to template */
 }
 
 .headline {
@@ -332,7 +324,7 @@ hr {
 }
 
 .btn-seemore {
-  font-size: 2.5vw; /* new change */
+  font-size: 2.5vw;
   width: 100%;
   color: #272a31;
   background-color: unset;
@@ -358,4 +350,24 @@ hr {
 #hr1 {
   border: 1px solid #e0e0e0;
   width: 100%;
+}
+
+#archives {
+  padding: 0 10%;
+}
+
+#archiveList {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around; 
+  gap: 20px;
+}
+
+#archiveItem1 {
+  background-image: url('../images/archive-1.png');
+  background-color: #ec524240;
+}
+
+#archiveItem2 {
+  background-image: url('../images/archive-2.png');
 }

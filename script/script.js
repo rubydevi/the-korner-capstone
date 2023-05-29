@@ -83,7 +83,7 @@ seeMoreButton.addEventListener('click', () => {
   });
 
   // seeMoreButton.classList.toggle('displayBlock');
-seeMoreButton.innerText = seeMoreButton.innerText === 'more'.toLocaleUpperCase() ? 'hide'.toLocaleUpperCase() : 'more'.toLocaleUpperCase();
+  seeMoreButton.innerText = seeMoreButton.innerText === 'more'.toLocaleUpperCase() ? 'hide'.toLocaleUpperCase() : 'more'.toLocaleUpperCase();
 });
 
 // Navlinks Popup
