@@ -200,3 +200,57 @@ hr {
   justify-items: center;
   /* color: change according to template */
 }
+
+.headline {
+  margin-bottom: 0;
+  font-size: 4.5vw;  
+}
+
+#features .program {
+  background-color: unset;
+}
+
+#features .program img {
+  min-width: 30%;
+}
+
+.speaker-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker-head {
+  font-size: 4vw;
+  margin: 0;
+}
+
+.speaker-title {
+  font-size: 2.3vw;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.feature-hr {
+  border-color: #d3d3d3;
+  margin: 5% 0;
+}
+
+.speaker-description {
+  margin: 0;
+  font-size: 2.3vw;
+}
+
+.btn-seemore {
+  font-size: 2.5vw; /*new change*/
+  width: 100%;
+  color:#272a31;
+  background-color: unset;
+  border: 1px solid #272a31;
+  border-radius: 5px;
+}
+
+.btn-seemore:hover {
+  background-color: #d3d3d3;
+  color:#fff;
+  border: 1px solid #fff;
+}
