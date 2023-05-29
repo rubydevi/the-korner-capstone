@@ -384,3 +384,13 @@ hr {
 #partner {
   background-color: #272a31;
 }
+
+/* FOOTER */
+.footer {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  width: 30%;
+}
