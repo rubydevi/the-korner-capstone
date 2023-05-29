@@ -352,7 +352,8 @@ hr {
   width: 100%;
 }
 
-#archives {
+#archives,
+#partners {
   padding: 0 10%;
 }
 
@@ -363,11 +364,18 @@ hr {
   gap: 20px;
 }
 
-#archiveItem1 {
-  background-image: url('../images/archive-1.png');
-  background-color: #ec524240;
+#archiveList img,
+#partnerList img {
+  width: 100%;
 }
 
-#archiveItem2 {
-  background-image: url('../images/archive-2.png');
+#partnerList {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; 
+  gap: 20px;
+}
+
+#partner {
+  background-color: #272a31;
 }
