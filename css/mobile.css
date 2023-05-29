@@ -5,10 +5,14 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.bg-full {  
+.bg-full {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 /* MOBILE NAVIGATION POP UP */
@@ -343,13 +347,14 @@ hr {
   text-align: center;
 }
 
-#img_logo {
+/* #img_logo {
   width: 100%;
-}
+} */
 
 #hr1 {
   border: 1px solid #e0e0e0;
-  width: 100%;
+
+  /* width: 100%; */
 }
 
 #archives,
@@ -358,21 +363,21 @@ hr {
 }
 
 #archiveList {
-  display: flex; 
-  flex-direction: column; 
-  justify-content: space-around; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   gap: 20px;
 }
 
-#archiveList img,
+/* #archiveList img,
 #partnerList img {
   width: 100%;
-}
+} */
 
 #partnerList {
   flex-direction: row;
   align-items: center;
-  justify-content: space-around; 
+  justify-content: space-around;
   gap: 20px;
 }
 
