@@ -90,7 +90,7 @@ ul {
 #greeting {
   font-weight: 400;
   font-size: 1.2em;
-  text-shadow: 2px 2px 1px rgb(0 0 0 / 20%);
+  /* text-shadow: 2px 2px 1px rgb(0 0 0 / 20%); */
 }
 
 .text-title {
@@ -109,6 +109,7 @@ ul {
   padding: 5%;
   border: 1px solid #fff;
   border-radius: 10px;
+  font-size: 3vw
 }
 
 #p_date {
@@ -176,15 +177,19 @@ hr {
   cursor: pointer;
   box-sizing: border-box;
   border: 1px solid transparent;
+  font-size: 2.5vw;
+}
+
+.btn-primary {
   background-color: #ec5242;
   margin-top: 6%;
 }
 
-.btn:active {
+.btn-primary:active {
   background-color: rgb(255, 78, 47);
 }
 
-.btn:hover {
+.btn-primary:hover {
   border: 1px solid #ec5242;
   background-color: rgb(255, 192, 181);
   color: #ec5242;
