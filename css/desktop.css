@@ -1,4 +1,9 @@
 @media only screen and (min-width: 768px) {
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
   .desktop-social {
     display: flex;
     background-color: #3e3e3e;
@@ -9,33 +14,30 @@
     gap: 20px;
   }
 
+  .desktop-social li {
+    display: flex;
+    justify-content: center;
+  }
+
   .desktop-social a {
     color: #fff;
+    font-size: 1vw;
   }
 
   .container {
-    padding: 1% 5%;
+    padding: 0 5%;
   }
 
   header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  
+
   .navbar {
     display: flex;
     align-items: center;
   }
 
-  a {
-    text-decoration: none;
-    color: #000;
-  }
-
-  /* .header-ul {
-
-  } */
-
-  main {    
+  main {
     display: flex;
     justify-content: center;
     padding: 8% 0;
@@ -47,6 +49,7 @@
 
   .text-description {
     font-size: 1.2vw;
+    padding: 0;
   }
 
   .headline {
@@ -64,7 +67,11 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    gap: 2px;
+  }
+
+  .nav-ul li {
+    display: flex;
+    justify-content: center;
   }
 
   .nav-ul a {
@@ -84,7 +91,7 @@
   }
 
   .register {
-    padding: 3%;
+    padding: 2% 3%;
     border: 2px solid #ec5242;
   }
 
@@ -100,7 +107,6 @@
   .programs {
     flex-direction: row;
     padding: 4% 12%;
-    /* padding-top: 4%; */
   }
 
   .program {
@@ -124,6 +130,7 @@
     font-weight: 700;
     font-size: 1.6vw;
   }
+
   .program-description {
     font-weight: 700;
     font-size: 0.8vw;
@@ -162,7 +169,7 @@
 
   .speaker-title {
     font-size: 1.04vw;
-    color: #F78C89;
+    color: #f78c89;
     font-weight: 700;
   }
 
@@ -180,10 +187,20 @@
     display: flex;
   }
 
+  /* LOGO SECTION */
+  #img_logo {
+    width: 35%;
+  }
+
+  /* ARCHIVES */
+  #archiveList {
+    flex-direction: row;
+  }
+
   /* FOOTER */
-.indexShowHide {
-  display: grid;
-}
+  .indexShowHide {
+    display: grid;
+  }
 
   .footer-logo {
     width: 15%;
