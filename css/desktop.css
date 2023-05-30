@@ -179,4 +179,13 @@
   .speaker-hidden {
     display: flex;
   }
+
+  /* FOOTER */
+  .footer-logo {
+    width: 15%;
+  }
+
+  #yearNow {
+    font-size: 0.9vw;
+  }
 }
