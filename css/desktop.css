@@ -140,4 +140,43 @@
     font-size: 1.3vw;
     width: 100%;
   }
+
+  /* FEATURES */
+  #features .programs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #features .program {
+    background-color: unset;
+    width: 100%;
+    flex-direction: row;
+    text-align: unset;
+  }
+
+  .speaker-head {
+    font-size: 1.6vw;
+    color: #000;
+    font-weight: 700;
+  }
+
+  .speaker-title {
+    font-size: 1.04vw;
+    color: #F78C89;
+    font-weight: 700;
+  }
+
+  .feature-hr {
+    width: 10%;
+  }
+
+  .speaker-description {
+    font-size: 1vw;
+    color: #000;
+    font-weight: 700;
+  }
+
+  .speaker-hidden {
+    display: flex;
+  }
 }
