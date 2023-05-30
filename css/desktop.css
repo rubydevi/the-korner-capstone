@@ -211,6 +211,10 @@
     display: none;
   }
 
+  .footer {
+    padding: 4%;
+  }
+
   .footer-logo {
     width: 15%;
   }

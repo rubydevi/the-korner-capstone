@@ -416,3 +416,7 @@ hr {
 .footer-logo {
   width: 30%;
 }
+
+#yearNow {
+  font-size: 0.9vw;
+}

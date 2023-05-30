@@ -26,3 +26,13 @@ menuList.forEach((list) => {
     event.preventDefault();
   });
 });
+
+// LOGO MANIPULATION
+const whiteLogo = document.getElementById('whiteLogo');
+const mediaQuery = window.matchMedia('(min-width: 768px)');
+
+if (mediaQuery.matches) {
+  whiteLogo.style.display = 'block';
+} else {
+  whiteLogo.style.display = 'none';
+}
