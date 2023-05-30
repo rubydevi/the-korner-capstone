@@ -7,6 +7,9 @@
     margin: 0;
     padding: 1%;
     gap: 20px;
+  }
+
+  .desktop-social a {
     color: #fff;
   }
 
@@ -47,7 +50,8 @@
   }
 
   .headline {
-    font-size: 2.5vw;
+    font-size: 2.1vw;
+    font-weight: 400;
   }
 
   hr {
@@ -98,8 +102,9 @@
   .program {
     flex-direction: column;
     padding: 1%;
-    gap: 2%;
+    gap: 4%;
     width: 20%;
+    text-align: center;
   }
 
   .program img {
@@ -109,6 +114,15 @@
   .program img,
   .program p {
     margin: 0;
+  }
+
+  .program-name {
+    font-weight: 700;
+    font-size: 1.6vw;
+  }
+  .program-description {
+    font-weight: 700;
+    font-size: 0.8vw;
   }
 
   .btn {
