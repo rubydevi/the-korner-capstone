@@ -93,10 +93,14 @@
     width: 66%;
   }
 
+  #services {
+    padding-bottom: 5%;
+  }
+
   .programs {
     flex-direction: row;
-    padding: 12%;
-    padding-top: 4%;
+    padding: 4% 12%;
+    /* padding-top: 4%; */
   }
 
   .program {
@@ -127,5 +131,13 @@
 
   .btn {
     display: none;
+  }
+
+  #services a {
+    display: block;
+    text-decoration: underline;
+    color: #fff;
+    font-size: 1.3vw;
+    width: 100%;
   }
 }
