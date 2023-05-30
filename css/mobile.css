@@ -100,6 +100,14 @@ header {
   padding: 1px 10px;
 }
 
+.header-ul {
+  margin: 0;
+}
+
+#openNav img {
+  width: 7%
+}
+
 .displayNone {
   display: none;
 }
@@ -202,7 +210,7 @@ ul {
 #services {
   justify-items: center;
   color: #fff;
-  background-image: url(../images/grids/grid-body1.jpg);
+  background-image: url(../images/grids/grid-body2.png);
 }
 
 hr {
