@@ -181,6 +181,10 @@
   }
 
   /* FOOTER */
+.indexShowHide {
+  display: grid;
+}
+
   .footer-logo {
     width: 15%;
   }
