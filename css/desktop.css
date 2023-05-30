@@ -198,8 +198,17 @@
   }
 
   /* FOOTER */
+  #aboutFooter {
+    background-color: #3e3e3e;
+    color: #fff;
+  }
+
   .indexShowHide {
     display: grid;
+  }
+
+  .aboutShowHide {
+    display: none;
   }
 
   .footer-logo {
