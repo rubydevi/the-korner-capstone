@@ -1,4 +1,23 @@
 @media only screen and (min-width: 768px) {
+  .desktop-social {
+    display: flex;
+    background-color: #3e3e3e;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 1%;
+    gap: 20px;
+    color: #fff;
+  }
+
+  .container {
+    padding: 1% 5%;
+  }
+
+  header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
   .navbar {
     display: flex;
     align-items: center;
@@ -12,6 +31,12 @@
   /* .header-ul {
 
   } */
+
+  main {    
+    display: flex;
+    justify-content: center;
+    padding: 8% 0;
+  }
 
   .text-title {
     font-size: 6.2vw;
@@ -36,6 +61,12 @@
     align-items: center;
     width: 90%;
     gap: 2px;
+  }
+
+  .nav-ul a {
+    font-size: 1.1vw;
+    color: #868686;
+    font-weight: 800;
   }
 
   #webLogo {
