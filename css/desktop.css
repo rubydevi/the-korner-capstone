@@ -52,4 +52,35 @@
     padding: 3%;
     border: 2px solid #ec5242;
   }
+
+  /* INDEX HTML */
+  #home {
+    width: 66%;
+  }
+
+  .programs {
+    flex-direction: row;
+    padding: 12%;
+    padding-top: 4%;
+  }
+
+  .program {
+    flex-direction: column;
+    padding: 1%;
+    gap: 2%;
+    width: 20%;
+  }
+
+  .program img {
+    width: 30%;
+  }
+
+  .program img,
+  .program p {
+    margin: 0;
+  }
+
+  .btn {
+    display: none;
+  }
 }
