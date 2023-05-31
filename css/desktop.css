@@ -50,8 +50,6 @@
 
   .text-description {
     font-size: 1.2vw;
-
-    /* padding: 0; */
   }
 
   .headline {
@@ -221,7 +219,6 @@
   #advertise {
     padding: 3%;
     display: flex;
-    width: 100%;
     justify-content: center;
   }
 
@@ -236,6 +233,14 @@
   }
 
   /* ARCHIVES */
+  #past p {
+    padding: unset;
+  }
+
+  #archives {
+    padding-bottom: 4%;
+  }
+
   #archiveList {
     flex-direction: row;
     justify-content: center;
