@@ -153,6 +153,7 @@
   .program-description {
     font-weight: 700;
     font-size: 0.8vw;
+    line-height: 189%;
   }
 
   .btn {
@@ -165,6 +166,15 @@
     color: #fff;
     font-size: 1.3vw;
     width: 100%;
+  }
+
+  #services .programs {
+    gap: 0.2em;
+  }
+
+  #services .program {
+    padding: 2% 1%;
+    gap: 0.5em;
   }
 
   /* FEATURES */
