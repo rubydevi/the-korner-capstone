@@ -3,7 +3,7 @@ const speakers = [
   {
     name: 'Prof. K. N. Rao',
     title: 'Master in all branches of astrology',
-    description: "A renowned professor of Vedic Astrology and Master of all branches of Vedic Astrology.",
+    description: 'A renowned professor of Vedic Astrology and Master of all branches of Vedic Astrology.',
     image: 'images/features/thumbnail1.png',
   },
   {
@@ -21,13 +21,13 @@ const speakers = [
   {
     name: 'Barbara Pijan',
     title: 'M.A. in History of Religions from the University of Chicago',
-    description: "She uses traditional Jyotishavidya techniques from the Sanskrit lineage commentaries. Her readings are philosophically influenced by classical Western thought as well as Tibetan Buddhist precepts.",
+    description: 'She uses traditional Jyotishavidya techniques from the Sanskrit lineage commentaries. Her readings are philosophically influenced by classical Western thought as well as Tibetan Buddhist precepts.',
     image: 'images/features/thumbnail4.png',
   },
   {
     name: 'Dr. Kadamberi Sharma',
     title: 'Founder of Vedic Oracle By Kadambari; Tarot Reader',
-    description: "She is a young astrology who dedicated her life to reviving Jyotish tradition back home and completely dedicated to the Science of Space , Time and Traditions",
+    description: 'She is a young astrology who dedicated her life to reviving Jyotish tradition back home and completely dedicated to the Science of Space , Time and Traditions',
     image: 'images/features/thumbnail5.png',
   },
   {

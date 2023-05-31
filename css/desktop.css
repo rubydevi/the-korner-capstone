@@ -50,6 +50,7 @@
 
   .text-description {
     font-size: 1.2vw;
+
     /* padding: 0; */
   }
 
@@ -60,7 +61,7 @@
 
   hr {
     /* margin: 0 auto; */
-    width: 5%;
+    width: 3%;
   }
 
   .nav-ul {
@@ -217,6 +218,19 @@
   }
 
   /* LOGO SECTION */
+  #advertise {
+    padding: 3%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #logoSection p {
+    font-size: 1.1vw;
+    margin: 0;
+    width: 50%;
+  }
+
   #img_logo {
     width: 35%;
   }
@@ -224,6 +238,16 @@
   /* ARCHIVES */
   #archiveList {
     flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .image-text {
+    font-size: 3.2vw;
+  }
+
+  .image-subtitle {
+    font-size: 1.4vw;
   }
 
   /* FOOTER */
