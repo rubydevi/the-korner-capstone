@@ -4,37 +4,37 @@ const speakers = [
     name: 'Yaochai Benkler',
     title: 'Berkman professor of enterpreneurial legal studies at harvard law school',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    image: 'images/features/photo1.jpg',
+    image: 'images/features/thumbnail1.png',
   },
   {
     name: 'Chongtham Ruby Devi',
     title: 'Software Engineer',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    image: 'images/features/photo4.jpg',
+    image: 'images/features/thumbnail2.png',
   },
   {
     name: 'Yaochai Benkler',
     title: 'Berkman professor of enterpreneurial legal studies at harvard law school',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    image: 'images/features/photo5.jpg',
+    image: 'images/features/thumbnail3.png',
   },
   {
     name: 'Yaochai Benkler',
     title: 'Berkman professor of enterpreneurial legal studies at harvard law school',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    image: 'images/features/photo7.jpg',
+    image: 'images/features/thumbnail4.png',
   },
   {
     name: 'Yaochai Benkler',
     title: 'Berkman professor of enterpreneurial legal studies at harvard law school',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    image: 'images/features/photo8.jpg',
+    image: 'images/features/thumbnail5.png',
   },
   {
     name: 'Yaochai Benkler',
     title: 'Berkman professor of enterpreneurial legal studies at harvard law school',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    image: 'images/features/photo9.jpg',
+    image: 'images/features/thumbnail6.png',
   },
 ];
 
