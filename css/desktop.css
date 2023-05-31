@@ -58,7 +58,6 @@
   }
 
   hr {
-    /* margin: 0 auto; */
     width: 3%;
   }
 
@@ -247,12 +246,12 @@
     gap: 1em;
   }
 
-  .image-text {
-    font-size: 3.2vw;
+  .image-title {
+    font-size: 2.5vw;
   }
 
   .image-subtitle {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
   }
 
   /* FOOTER */
