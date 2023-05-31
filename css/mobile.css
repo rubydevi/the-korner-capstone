@@ -58,7 +58,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 80%;
 }
 
 .modalNav {
@@ -68,6 +68,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 0.4em;
 }
 
 .modalNav li {
