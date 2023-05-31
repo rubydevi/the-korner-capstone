@@ -10,7 +10,7 @@
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-    padding: 1%;
+    padding: 1% 10%;
     gap: 20px;
   }
 
@@ -29,6 +29,7 @@
   }
 
   header {
+    padding: 0 5%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
